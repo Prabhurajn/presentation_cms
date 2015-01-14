@@ -1,0 +1,7 @@
+<?php
+$fl=fopen("ok.inc","w");
+$s="drupal";
+$str= "' $sitename'= $s";
+echo fwrite($fl,$str);
+fclose($fl);
+?>

@@ -1,0 +1,13 @@
+ #table-1 {
+    height: 100%;
+    width: 100%;
+    display: table;
+  }
+  #table-2 {
+    vertical-align: middle;
+    display: table-cell;
+    height: 100%;
+  }
+  #myTable {
+    margin: 0 auto;
+  }
